@@ -1,4 +1,4 @@
-# Trabalho Prático - Semanas 3 e 4
+# Trabalho Prático - Prática 3 - Curriculo Vitae
 
 ## Informações Gerais
 - Nome: 
