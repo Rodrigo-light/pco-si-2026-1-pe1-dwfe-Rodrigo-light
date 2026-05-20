@@ -69,4 +69,18 @@ if (terceiroFilme.generos && terceiroFilme.generos.length >= 2) {
     console.log("Segundo gênero do terceiro item:", terceiroFilme.generos[1]);
 } else {
     console.log("Somente um gênero");
-}
+};
+catalogo.forEach(filme =>{
+console.log(filme.tipo)
+console.log(filme.titulo)
+console.log(filme.ano)
+});
+
+const titulosEmCaixaAlta = catalogo.map(filme => filme.titulo.toLocaleUpperCase());
+console.log(titulosEmCaixaAlta);
+const naoAssistidos = catalogo.filter(filme => filme.assistido === false);
+
+console.log(naoAssistidos);
+console.log(naoAssistidos.length);
+const nota9 = catalogo.find(filme => filme.nota >= 9  );
+console.log(nota9.titulo);
